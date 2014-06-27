@@ -24,6 +24,7 @@
     if(1){
         
     }
+    NSString *unusedVar1 = @"Unused";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
