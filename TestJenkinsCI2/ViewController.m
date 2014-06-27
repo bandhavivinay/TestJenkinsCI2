@@ -28,6 +28,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(int)returnVariable{
+    return 1;
+    NSString *justChecking = @"abc";
+    NSLog(@"%@",justChecking);
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
