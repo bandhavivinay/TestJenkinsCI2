@@ -21,7 +21,7 @@
 check1:
     {
     int number = 4;
-    switch (i) {
+    switch (number) {
         case 1:
             NSLog(@"Switch case");
             break;
@@ -40,6 +40,10 @@ check1:
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(int)returnSomething{
+    return 5;
+    NSLog(@"Just Logging");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
