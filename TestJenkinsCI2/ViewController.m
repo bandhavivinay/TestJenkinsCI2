@@ -24,15 +24,18 @@
     if(1){
         
     }
-    NSString *unusedVar1 = @"Unused";
+    
+    switch (1) {
+        case 1:
+            NSLog(@"Switch case");
+            break;
+            
+        default:
+            break;
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 
--(int)returnVariable{
-    return 1;
-    NSString *justChecking = @"abc";
-    NSLog(@"%@",justChecking);
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
