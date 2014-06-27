@@ -21,19 +21,19 @@
 check1:
     {
     int number = 4;
-//    switch (i) {
-//        case 1:
-//            NSLog(@"Switch case");
-//            break;
-//        case 2:
-//            NSLog(@"abc");
-//            break;
-//        case 4:
-//            NSLog(@"def");
-//            break;
-//        default:
-//            break;
-//    }
+    switch (i) {
+        case 1:
+            NSLog(@"Switch case");
+            break;
+        case 2:
+            NSLog(@"abc");
+            break;
+        case 4:
+            NSLog(@"def");
+            break;
+        default:
+            break;
+    }
     if(number > 3)
         goto check1;
     }
