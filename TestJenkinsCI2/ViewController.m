@@ -17,6 +17,13 @@
             
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if(1){
+        
+    }
+    
+    if(1){
+        
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 
