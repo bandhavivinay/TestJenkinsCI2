@@ -24,12 +24,17 @@
     if(1){
         
     }
-    
-    switch (1) {
+    int i = 4;
+    switch (i) {
         case 1:
             NSLog(@"Switch case");
             break;
-            
+        case 2:
+            NSLog(@"abc");
+            break;
+        case 4:
+            NSLog(@"def");
+            break;
         default:
             break;
     }
