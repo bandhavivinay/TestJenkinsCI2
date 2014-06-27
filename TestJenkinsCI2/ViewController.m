@@ -17,26 +17,25 @@
             
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if(1){
-        
-    }
-    
-    if(1){
-        
-    }
-    int i = 4;
-    switch (i) {
-        case 1:
-            NSLog(@"Switch case");
-            break;
-        case 2:
-            NSLog(@"abc");
-            break;
-        case 4:
-            NSLog(@"def");
-            break;
-        default:
-            break;
+
+check1:
+    {
+    int number = 4;
+//    switch (i) {
+//        case 1:
+//            NSLog(@"Switch case");
+//            break;
+//        case 2:
+//            NSLog(@"abc");
+//            break;
+//        case 4:
+//            NSLog(@"def");
+//            break;
+//        default:
+//            break;
+//    }
+    if(number > 3)
+        goto check1;
     }
     // Do any additional setup after loading the view, typically from a nib.
 }
